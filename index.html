@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Desculpas - Jogo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>💔 Jogo do Pedido de Desculpas 💖</h1>
+        <p class="message">Clique nos corações para ganhar pontos! 🎯</p>
+        <div id="score">Pontos: 0</div>
+        <div id="gameArea"></div>
+        <button id="restartBtn" onclick="iniciarJogo()">Iniciar Jogo</button>
+        <div id="endMessage" class="hidden">
+            <p>Você fez <span id="finalScore">0</span> pontos!</p>
+            <p>Desculpe por tudo! Eu te amo! ❤️</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
